@@ -1,0 +1,5 @@
+org\sakaiproject\tool\imagedetector\controller\BaseController.class
+org\sakaiproject\tool\imagedetector\controller\ConfigurationController.class
+org\sakaiproject\tool\imagedetector\controller\HomeController.class
+org\sakaiproject\tool\imagedetector\controller\UserProfileController.class
+org\sakaiproject\tool\imagedetector\controller\model\UserProfile.class
