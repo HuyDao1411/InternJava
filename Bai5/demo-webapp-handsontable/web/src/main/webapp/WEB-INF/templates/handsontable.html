@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Platform MyWorkspace Web Application - How to make grid data UI with Handsontable</title>
+    <th:block th:include="fragments/head"></th:block>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/handsontable@14.4.0/dist/handsontable.full.min.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/handsontable/dist/handsontable.full.min.js"></script>
+</head>
+<body>
+
+    <div th:replace="~{fragments/header :: header}">Header</div>
+    <th:block th:include="fragments/frg_handsontable"></th:block>
+
+    <!-- Bottom Javascripts -->
+    <script type="text/javascript" th:src="@{/resources/js/handsontable.js}" ></script>
+</body>
+</html>
